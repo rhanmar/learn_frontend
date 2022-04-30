@@ -1,0 +1,28 @@
+h1 {
+	color: blue;
+	font-size: 20px;
+}
+p.todo {
+	color: red;
+}
+#test-id {
+	color: green;
+	font-style: italic;
+}
+#big-info {
+	display: block;
+}
+.inline-p {
+	display: inline;
+	background-color: darkgreen;
+	color: white;
+}
+.important_words {
+	font-style: italic;
+	color: aquamarine;
+	background-color: cornflowerblue;
+}
+.important_block {
+	color: blueviolet;
+	background-color: yellow;
+}

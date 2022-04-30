@@ -1,0 +1,72 @@
+body {
+    font-family: Georgia;
+    background-color: #f0e3fd;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#personal-header {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+#personal-info-links {
+    text-align: center;
+}
+#personal-link-left {
+    margin-right: 5px;
+}
+#personal-link-right {
+    margin-left: 5px;
+}
+#personal-name {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#personal-job {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#personal-info {
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.topic-header {
+    font-size: 28px;
+    border-bottom: 2px solid;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.topic-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.topic-info {
+    margin-top: 10px;
+}
+.topic-timeline {
+    font-style: italic;
+}
+.topic-list {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 45px;
+}
+.footer-info-elem {
+    margin: 10px;
+}
+.footer-block {
+    margin: 10px;
+}
+#footer-name {
+    font-weight: bold;
+    font-size: 20px;
+}

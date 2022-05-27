@@ -1,0 +1,61 @@
+:root {
+    --back-color: #e5f3e5;
+    --data-color: #12121c;
+}
+
+:root.dark {
+    --back-color: #285e94;
+}
+
+
+body {
+    background-color: var(--back-color);
+    font-family: Georgia;
+    padding: 5px;
+    /*place-items: center;*/
+    /*display: grid;*/
+    color: var(--data-color);
+    /*margin: 5px;*/
+    /*padding: 5px;*/
+}
+
+#main-block {
+    place-items: center;
+    display: grid;
+    /*border: 1px solid black;*/
+}
+
+.weather-data-block {
+    place-items: center;
+    display: grid;
+    border: 1px solid black;
+}
+
+.city-name {
+    border: 1px solid black;
+    place-items: center;
+    /*place-items: center;*/
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.city-time {
+    border: 1px solid black;
+    place-items: center;
+    /*place-items: center;*/
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.city-weather-data {
+    border: 1px solid black;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttons {
+    margin: 15px;
+}
